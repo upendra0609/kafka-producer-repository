@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.sikku.kafka.orderProducer01.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Code\Kafka\udemy\orderProducer\target\test-classes;D:\Code\Kafka\udemy\orderProducer\target\classes;C:\Users\upendra singh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\upendra singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\upendra singh\.m2\repository\org\apache\kafka\kafka-clients\3.7.0\kafka-clients-3.7.0.jar;C:\Users\upendra singh\.m2\repository\com\github\luben\zstd-jni\1.5.5-6\zstd-jni-1.5.5-6.jar;C:\Users\upendra singh\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\upendra singh\.m2\repository\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar;C:\Users\upendra singh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\upendra singh\.m2\repository\org\apache\avro\avro\1.11.2\avro-1.11.2.jar;C:\Users\upendra singh\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-avro-serializer\7.4.1\kafka-avro-serializer-7.4.1.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-schema-serializer\7.4.1\kafka-schema-serializer-7.4.1.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-schema-registry-client\7.4.1\kafka-schema-registry-client-7.4.1.jar;C:\Users\upendra singh\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\upendra singh\.m2\repository\io\swagger\core\v3\swagger-annotations\2.1.10\swagger-annotations-2.1.10.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\upendra singh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\upendra singh\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\upendra singh\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\upendra singh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\upendra singh\.m2\repository\io\confluent\logredactor\1.0.12\logredactor-1.0.12.jar;C:\Users\upendra singh\.m2\repository\com\google\re2j\re2j\1.6\re2j-1.6.jar;C:\Users\upendra singh\.m2\repository\io\confluent\logredactor-metrics\1.0.12\logredactor-metrics-1.0.12.jar;C:\Users\upendra singh\.m2\repository\com\eclipsesource\minimal-json\minimal-json\0.9.5\minimal-json-0.9.5.jar;C:\Users\upendra singh\.m2\repository\io\confluent\common-utils\7.4.1\common-utils-7.4.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="D:\Download\Software\STS\STS_NEW\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\upendra singh\AppData\Local\Temp\surefire2346980095474148010\surefirebooter-20240516215820963_3.jar C:\Users\upendra singh\AppData\Local\Temp\surefire2346980095474148010 2024-05-16T21-58-20_730-jvmRun1 surefire-20240516215820963_1tmp surefire_0-20240516215820963_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Code\Kafka\udemy\orderProducer\target\test-classes;D:\Code\Kafka\udemy\orderProducer\target\classes;C:\Users\upendra singh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\upendra singh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\upendra singh\.m2\repository\org\apache\kafka\kafka-clients\3.7.0\kafka-clients-3.7.0.jar;C:\Users\upendra singh\.m2\repository\com\github\luben\zstd-jni\1.5.5-6\zstd-jni-1.5.5-6.jar;C:\Users\upendra singh\.m2\repository\org\lz4\lz4-java\1.8.0\lz4-java-1.8.0.jar;C:\Users\upendra singh\.m2\repository\org\xerial\snappy\snappy-java\1.1.10.5\snappy-java-1.1.10.5.jar;C:\Users\upendra singh\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\upendra singh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\upendra singh\.m2\repository\org\apache\avro\avro\1.11.2\avro-1.11.2.jar;C:\Users\upendra singh\.m2\repository\org\apache\commons\commons-compress\1.22\commons-compress-1.22.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-avro-serializer\7.4.1\kafka-avro-serializer-7.4.1.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-schema-serializer\7.4.1\kafka-schema-serializer-7.4.1.jar;C:\Users\upendra singh\.m2\repository\io\confluent\kafka-schema-registry-client\7.4.1\kafka-schema-registry-client-7.4.1.jar;C:\Users\upendra singh\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\upendra singh\.m2\repository\io\swagger\core\v3\swagger-annotations\2.1.10\swagger-annotations-2.1.10.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\upendra singh\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\upendra singh\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\upendra singh\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\upendra singh\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\upendra singh\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\upendra singh\.m2\repository\io\confluent\logredactor\1.0.12\logredactor-1.0.12.jar;C:\Users\upendra singh\.m2\repository\com\google\re2j\re2j\1.6\re2j-1.6.jar;C:\Users\upendra singh\.m2\repository\io\confluent\logredactor-metrics\1.0.12\logredactor-metrics-1.0.12.jar;C:\Users\upendra singh\.m2\repository\com\eclipsesource\minimal-json\minimal-json\0.9.5\minimal-json-0.9.5.jar;C:\Users\upendra singh\.m2\repository\io\confluent\common-utils\7.4.1\common-utils-7.4.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\upendra singh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="D:\Download\Software\STS\STS_NEW\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Code\Kafka\udemy\orderProducer"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\upendra singh\AppData\Local\Temp\surefire2346980095474148010\surefirebooter-20240516215820963_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.2+9"/>
+    <property name="user.name" value="upendra singh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-20.0.2+9"/>
+    <property name="localRepository" value="C:\Users\upendra singh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\UPENDR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="user.dir" value="D:\Code\Kafka\udemy\orderProducer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\Download\Software\STS\STS_NEW\sts-4.19.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:/Download/Software/STS/STS_NEW/sts-4.19.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin/server;D:/Download/Software/STS/STS_NEW/sts-4.19.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_20.0.2.v20230801-2057/jre/bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Users\upendra singh\AppData\Local\Programs\Python\Python311\python.exe;C:\Users\upendra singh\AppData\Local\Microsoft\WindowsApps\python.exe;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;D:\Download\Software\Maven\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Docker\Docker\resources\bin;C:\minikube;C:\Users\upendra singh;C:\Program Files\nodejs\;C:\kafka_2.13-3.7.0\bin;D:\Download\Software\Software\MongoDb\mongosh-1.10.1-win32-x64\mongosh-1.10.1-win32-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\upendra singh\AppData\Local\Microsoft\WindowsApps;D:\Download\Software\Software\Maven\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Program Files\Java\jdk-21;C:\Users\upendra singh\AppData\Roaming\npm;D:\kafka\bin\windows;D:\confluent-7.6.1\bin\windows;;D:\Download\Software\STS\STS_NEW\sts-4.19.1.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="20.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.sikku.kafka.orderProducer01.AppTest" time="0.004"/>
+</testsuite>
