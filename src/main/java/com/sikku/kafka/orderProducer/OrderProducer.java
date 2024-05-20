@@ -1,4 +1,4 @@
-package com.sikku.kafka.orderProducer01;
+package com.sikku.kafka.orderProducer;
 
 import java.util.Properties;
 
@@ -30,6 +30,7 @@ public class OrderProducer {
 
 		props.setProperty(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, "200"); // Setting the request timeout in
 																			// milliseconds
+		props.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
 		
 		KafkaProducer<String, Integer> producer = new KafkaProducer<String, Integer>(props);
 
@@ -41,6 +42,6 @@ public class OrderProducer {
 		} finally {
 			producer.close();
 		}
-	}
+	}	
 
 }

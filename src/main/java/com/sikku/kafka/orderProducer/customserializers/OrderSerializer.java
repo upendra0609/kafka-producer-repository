@@ -1,4 +1,4 @@
-package com.sikku.kafka.orderProducer01.customserializers;
+package com.sikku.kafka.orderProducer.customserializers;
 
 import org.apache.kafka.common.serialization.Serializer;
 

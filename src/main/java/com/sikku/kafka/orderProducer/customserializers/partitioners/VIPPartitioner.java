@@ -1,4 +1,4 @@
-package com.sikku.kafka.orderProducer01.customserializers.partitioners;
+package com.sikku.kafka.orderProducer.customserializers.partitioners;
 
 import java.util.List;
 import java.util.Map;

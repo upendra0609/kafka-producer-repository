@@ -1,4 +1,4 @@
-package com.sikku.kafka.orderProducer01;
+package com.sikku.kafka.orderProducer;
 
 /**
  * Hello world!

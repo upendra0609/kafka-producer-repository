@@ -1,11 +1,11 @@
-package com.sikku.kafka.orderProducer01.customserializers;
+package com.sikku.kafka.orderProducer.customserializers;
 
 import java.util.Properties;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
-import com.sikku.kafka.orderProducer01.customserializers.partitioners.VIPPartitioner;
+import com.sikku.kafka.orderProducer.customserializers.partitioners.VIPPartitioner;
 
 public class OrderProducer {
 
